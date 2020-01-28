@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Home Page";
+    var p = ViewBag.text as string;
+}
+
+@model MVCText.Models.StringContainer;
+
+<div class="text-center">
+    <h1 class="display-4">File</h1>
+    <p>@p</p>
+</div>
